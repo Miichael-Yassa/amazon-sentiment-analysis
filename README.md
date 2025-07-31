@@ -53,16 +53,19 @@ Neutral reviews (3-star ratings) were intentionally excluded to create a clear b
    - Input your own review with `ipywidgets` and view predicted sentiment
 
 ---
-
 ## 📒 Project Structure
 
+```
 amazon-sentiment-analysis/
 │
 ├── notebooks/
-│ └── Sentiment_Analysis.ipynb # Main Jupyter Notebook
+│   └── Sentiment_Analysis.ipynb     # Main Jupyter Notebook
+│
 ├── data/
-│ ├── train.ft.txt.bz2
-│ └── test.ft.txt.bz2
-├── README.md
-├── requirements.txt
-└── .gitignore
+│   ├── train.ft.txt.bz2             # Training data
+│   └── test.ft.txt.bz2              # Test data
+│
+├── README.md                        # Project overview and instructions
+├── requirements.txt                 # List of dependencies
+└── .gitignore                       # Files to ignore in version control
+```
